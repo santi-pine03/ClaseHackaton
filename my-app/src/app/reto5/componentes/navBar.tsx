@@ -24,6 +24,7 @@ export default function Navbar({
     { label: "About", href: "#" },
   ],
   reversed = false,
+  mirrored = false,
   onSearch,
   placeholder = "Search",
 }: NavbarProps) {
@@ -39,6 +40,7 @@ export default function Navbar({
       className={[
         "w-full bg-neutral-800 text-neutral-100",
         "border-b border-neutral-700",
+        mirrored ? "transform scale-x-[-1]" : ""
       ].join(" ")}
     >
       <div

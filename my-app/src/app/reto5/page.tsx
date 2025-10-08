@@ -6,7 +6,7 @@ export default function Page() {
       <Navbar />
       <div className="flex flex-col items-center justify-center p-8">
       </div>
-      <Navbar reversed={true} placeholder="Buscar" />
+      <Navbar mirrored={true} placeholder="Buscar" />
     </div>
   );
 }
