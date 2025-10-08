@@ -1,3 +1,12 @@
+Participantes en la actividad: 
+
+Santiago Pineda - 202023262
+Ximena López - 202312848
+Luciana Bacci Tarazona - 202121870
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
