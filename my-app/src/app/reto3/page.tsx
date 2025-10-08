@@ -29,12 +29,6 @@ export default function Reto3() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8">
-      <button
-        onClick={() => router.push('/')}
-        className="absolute top-8 left-8 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-colors"
-      >
-        ← Volver
-      </button>
 
       <div className="bg-white rounded-lg shadow-lg p-12 max-w-md w-full">
         <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">

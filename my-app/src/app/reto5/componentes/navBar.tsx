@@ -10,6 +10,7 @@ type NavbarProps = {
   brand?: string;
   items?: NavItem[];
   reversed?: boolean;
+  mirrored?: boolean;
   onSearch?: (q: string) => void;
   placeholder?: string;
 };
